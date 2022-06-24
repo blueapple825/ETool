@@ -8,5 +8,5 @@ function inject(src) {
     catch (e) {
     }
 }
-//inject(chrome.runtime.getURL("entrystory/entrystory.js"));
+inject(chrome.runtime.getURL("entrystory/entrystory.js"));
 //# sourceMappingURL=inject.js.map
