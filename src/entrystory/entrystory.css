@@ -8,5 +8,5 @@
   cursor: pointer;
   content: "";
   overflow: hidden;
-  background: url(/img/IcoCmtPicture.svg) 0% 0% / 21px no-repeat;
+  background: url("https://playentry.org/img/IcoCmtPicture.svg") 0% 0% / 21px no-repeat;
 }
