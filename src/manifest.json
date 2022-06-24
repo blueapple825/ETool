@@ -9,9 +9,10 @@
     }
   ],
   "web_accessible_resources":[
-    {
-      "resources":["entrystory/entrystory.js"],
-      "matches":["https://playentry.org/community/entrystory/*"]
-    }
+    "entrystory/entrystory.js"
+    //{
+    //  "resources":["entrystory/entrystory.js"],
+    //  "matches":["https://playentry.org/community/entrystory/*"]
+    //}
   ]
 }
