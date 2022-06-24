@@ -10,7 +10,10 @@
   ],
   "web_accessible_resources":[
     {
-      "resources":["entrystory/entrystory.js"],
+      "resources":[
+        "entrystory/entrystory.js",
+        "entrystory/entrystory.css"
+      ],
       "matches":["*://playentry.org/*"]
     }
   ]

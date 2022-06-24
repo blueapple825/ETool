@@ -3,7 +3,7 @@ function injectScript(src) {
     try {
         let tag = document.createElement("script");
         tag.setAttribute("src", src);
-        document.body.appendChild(tag);
+        document.getElementsByTagName("body")[0].appendChild(tag);
     }
     catch (e) {
     }
@@ -13,7 +13,7 @@ function injectCSS(src) {
         let tag = document.createElement("link");
         tag.setAttribute("rel", "stylesheet");
         tag.setAttribute("src", src);
-        document.body.appendChild(tag);
+        document.getElementsByTagName("body")[0].appendChild(tag);
     }
     catch (e) {
     }
