@@ -1,4 +1,4 @@
-function injectScript(src:string){
+function injectScript(src:string):void{
     try{
         let tag=document.createElement("script");
         tag.setAttribute("src",src);
@@ -7,7 +7,7 @@ function injectScript(src:string){
     }
 }
 
-function injectCSS(href:string){
+function injectCSS(href:string):void{
     try{
         let tag=document.createElement("link");
         tag.setAttribute("href",href);

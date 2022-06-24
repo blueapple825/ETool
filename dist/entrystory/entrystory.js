@@ -9,7 +9,7 @@ window.onload = function () {
     imageUploadInputTag.setAttribute("type", "file");
     imageUploadInputTag.setAttribute("class", "blind");
     imageUploadInputTag.setAttribute("accept", ".png, .jpg, .jpeg, .bmp, .svg");
-    imageUploadInputTag.setAttribute("onchange", "uploadImage(this.files[0]);");
+    imageUploadInputTag.setAttribute("onchange", "Fetchs.uploadImage(this.files[0]);");
     imageUploadTag.appendChild(imageUploadInputTag); //뭐시기에 방금 태그 추가
     document.getElementsByClassName("e1h77j9v7")[0].appendChild(imageUploadTag); //글 입력하는 뭐시기에 방금 뭐시기 추가
 };
