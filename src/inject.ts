@@ -1,4 +1,4 @@
-function inject(src:string){
+function injectScript(src:string){
     try{
         let tag=document.createElement("script");
         tag.setAttribute("src",src);
@@ -7,4 +7,15 @@ function inject(src:string){
     }
 }
 
-inject(chrome.runtime.getURL("entrystory/entrystory.js"));
+function injectCSS(src:string){
+    try{
+        let tag=document.createElement("link");
+        tag.setAttribute("rel","stylesheet");
+        tag.setAttribute("src",src);
+        document.body.appendChild(tag);
+    }catch(e){
+    }
+}
+
+injectScript(chrome.runtime.getURL("entrystory/entrystory.js"));
+injectCSS(chrome.runtime.getURL("entrystory/entrystory.css"));

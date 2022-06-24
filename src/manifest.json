@@ -11,7 +11,7 @@
   "web_accessible_resources":[
     {
       "resources":["entrystory/entrystory.js"],
-      "matches":["*://playentry.org/community/entrystory/*"]
+      "matches":["*://playentry.org/*"]
     }
   ]
 }

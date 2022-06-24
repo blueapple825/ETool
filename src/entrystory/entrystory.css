@@ -1,0 +1,12 @@
+.imageUploadButton {
+  display: inline-block;
+  width: 21px;
+  height: 18px;
+  margin-top: 1px;
+  margin-left: 14px;
+  vertical-align: top;
+  cursor: pointer;
+  content: "";
+  overflow: hidden;
+  background: url(/img/IcoCmtPicture.svg) 0% 0% / 21px no-repeat;
+}
