@@ -2,6 +2,7 @@ function injectScript(src:string):void{
     try{
         let tag=document.createElement("script");
         tag.setAttribute("src",src);
+        tag.setAttribute("tpye","module");
         document.getElementsByTagName("body")[0].appendChild(tag);
     }catch(e){
     }
@@ -17,5 +18,7 @@ function injectCSS(href:string):void{
     }
 }
 
-injectScript(chrome.runtime.getURL("entrystory/entrystory.js"));
-injectCSS(chrome.runtime.getURL("entrystory/entrystory.css"));
+if(window.location.pathname=="/community/entrystory/list"){
+    injectScript(chrome.runtime.getURL("entrystory/entrystory.js"));
+    injectCSS(chrome.runtime.getURL("entrystory/entrystory.css"));
+}

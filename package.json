@@ -1,7 +1,7 @@
 {
   "name": "etool",
   "version": "1.0.0",
-  "devDependencies": {
-    "@types/chrome": "^0.0.190"
+  "author": {
+    "name": "blueapple825"
   }
 }
