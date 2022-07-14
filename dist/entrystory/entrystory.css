@@ -10,3 +10,77 @@
   overflow: hidden;
   background: url("https://playentry.org/img/IcoCmtPicture.svg") 0% 0% / 21px no-repeat;
 }
+
+.showUserData {
+  position: relative;
+  border: 0;
+  border-radius: 10px;
+  background: #ddd;
+  margin: 5px 5px 0 0;
+  padding: 5px;
+  top: -9px;
+}
+
+.userDataWindow {
+  position: fixed;
+  background-color: #fff;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+  width: 75%;
+  height: 75%;
+  transform: translate(-50%,-50%);
+}
+
+.userDataClose {
+  background-image: url("https://playentry.org/img/IconFullPopupClose.svg");
+  background-size: 22px;
+  margin: 10px;
+  width: 22px;
+  height: 22px;
+}
+
+.userDataTopBar {
+  margin: 0;
+  width: 100%;
+  height: 32px;
+}
+
+.userDataBGImg {
+  margin: 0;
+  width: 100%;
+  height: 30%;
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-color: rgb(22,216,163);
+  background-size: cover;
+}
+
+.userDataPFImg {
+  position: relative;
+  background-position: 50% 50%;
+  background-color: rgb(246,246,246);
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  top: -55px;
+  left: 40px;
+  border: 4px solid rgb(255, 255, 255);
+}
+
+.userDataWindow h2 {
+  position: relative;
+  font-size: 20px;
+  margin: 25px;
+  color: #000;
+  top: -40px;
+}
+
+.userDataWindow p {
+  position: relative;
+  font-size: 12px;
+  margin: 20px;
+  color: #000;
+  top: -40px;
+}
